@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 29, 29);
+    font-family: 'Lora', serif;
+    text-shadow: 4px 4px #00000071;
+}
+
+.parallax1 {
+    background: url(https://www.intelligentcio.com/apac/wp-content/uploads/sites/44/2023/03/AdobeStock_139571196-scaled.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax2 {
+    background: url(https://faroutmagazine.co.uk/static/uploads/1/2022/08/Director-Paul-Thomas-Anderson-.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax3 {
+    background: url(https://e0.pxfuel.com/wallpapers/678/726/desktop-wallpaper-the-master-teaches-in-19-official-stills-for-paul-thomas-paul-thomas-anderson.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner {
+    padding: 13% 0;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 50px 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p:nth-of-type(1),
+p:nth-of-type(2),
+p:nth-of-type(3) {
+    margin: 40px 50px;
+}
+
+#list-movies {
+    margin-top: 20px;
+}
+
+#list-movies li {
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+#ul-list-films {
+    list-style-type: none;
+}
+
+q{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Salsa', cursive;
+    font-style: italic;
+    background: rgba(240, 0, 0, 0.675);
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    margin: 0 50px 40px;
+    box-shadow: 8px 8px 21px 0px rgba(255,255,255,0.81);
+}
+
+
+    
